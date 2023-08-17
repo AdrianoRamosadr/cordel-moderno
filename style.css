@@ -27,7 +27,7 @@
 
 
 header{
-    background-image: linear-gradient(to bottom, blue, darkblue);
+    background-image: linear-gradient(to bottom, rgba(0, 89, 255, 0.63), rgb(0, 37, 139));
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
