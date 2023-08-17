@@ -66,7 +66,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2.6em;
     padding-left: 30px;
-    font-size: 2.7vw;
+    font-size: 2em;
     font-weight: bold;
 }
 
@@ -89,15 +89,15 @@ section.imagen{
 }
 
 section#flor2{
-    background-image: url(imagens/flores_azuis.jpg);
+    background-image: url(imagens/flor-azul-especies-2.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
 section#flor{
     background-image: url(imagens/flor-azul-2.jpg);
-    background-position: cover;
-    background-position: center center;
+    background-size: cover;
+    background-position: left center;
 }
 footer{
     background-image: linear-gradient(to bottom, blue, darkblue);
