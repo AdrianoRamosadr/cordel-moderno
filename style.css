@@ -100,7 +100,7 @@ section#flor2{
 section#flor{
     background-image: url(imagens/background002.jpg);
     background-size: cover;
-    background-position: right bottom;
+    background-position: center center;
 }
 footer{
     background-image: linear-gradient(to bottom, rgb(55, 0, 255), rgb(0, 2, 139));
