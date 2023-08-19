@@ -22,6 +22,7 @@
 *{
     margin: 0px;
     padding: 0px;
+   
 }
 
 
@@ -36,11 +37,12 @@ header{
 }
 
 header h1{
-    font-family: var(--font1);
+    font-family: var(--font);
     padding-top: 50px;
     color: white;
     font-variant: small-caps;
-    font-size: 2.9em;
+    font-size: 4.-11vw;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.123);
 }
 
 header p{
@@ -64,14 +66,15 @@ section{
     font-family: var(--font5);
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2.6em;
+    line-height: 2.3em;
     padding-left: 30px;
-    font-size: 2em;
+    font-size: 3.-7vw;
     font-weight: bold;
 }
 
 section p{
     padding-bottom: 10px;
+    font-size: 0.85em;
 }
 
 section.imagen > p{
@@ -89,18 +92,18 @@ section.imagen{
 }
 
 section#flor2{
-    background-image: url(imagens/flor-azul-especies-2.jpg);
+    background-image: url(imagens/background001.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
 section#flor{
-    background-image: url(imagens/flor-azul-2.jpg);
+    background-image: url(imagens/background002.jpg);
     background-size: cover;
-    background-position: left center;
+    background-position: right bottom;
 }
 footer{
-    background-image: linear-gradient(to bottom, blue, darkblue);
+    background-image: linear-gradient(to bottom, rgb(55, 0, 255), rgb(0, 2, 139));
     color: white;
     text-align: center;
     padding: 5px;
