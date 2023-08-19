@@ -93,7 +93,7 @@ section.imagen{
 
 section#flor2{
     background-image: url(imagens/background001.jpg);
-    background-position: center center;
+    background-position: left ;
     background-size: cover;
     background-attachment: fixed;
 }
