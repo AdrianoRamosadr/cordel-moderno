@@ -48,9 +48,8 @@ header h1{
     padding-top: 50px;
     color: white;
     font-variant: small-caps;
-    font-size: 5.37vw;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.123);
-    text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.438);
+    font-size: 4em;
+    text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.267);
     
 }
 
@@ -74,10 +73,11 @@ header a:hover{
 section{
     font-family: var(--font1);
     padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
+    width: 100vh;
     line-height: 2.3em;
     padding-left: 30px;
-    font-size: 3.1vw;
+    font-size: 3.5vw;
     font-weight: bold;
 }
 
