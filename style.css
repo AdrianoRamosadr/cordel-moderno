@@ -10,12 +10,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bricolage+Grotesque:opsz@10..48&family=Courgette&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 :root{
     --font1:'Sriracha', cursive;
     --font2: 'Srisakdi', cursive;
     --font3: 'Dancing Script', cursive;
     --font4: 'Bricolage Grotesque', sans-serif;
     --font5: 'Courgette', cursive;
+    --font6: 'Passion One', cursive;
+    
+
 
 }
 
@@ -37,12 +44,14 @@ header{
 }
 
 header h1{
-    font-family: var(--font);
+    font-family: var(--font6);
     padding-top: 50px;
     color: white;
     font-variant: small-caps;
-    font-size: -4.11vw;
+    font-size: 5.37vw;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.123);
+    text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.438);
+    
 }
 
 header p{
@@ -63,7 +72,7 @@ header a:hover{
 }
 
 section{
-    font-family: var(--font5);
+    font-family: var(--font1);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2.3em;
@@ -75,12 +84,14 @@ section{
 section p{
     padding-bottom: 10px;
     font-size: 0.85em;
+   
 }
 
 section.imagen > p{
    background-color: rgba(0, 0, 0, 0.404);
 display: inline-block;
 padding: 10px;
+text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.384);
 }
 
 section.imagen{
@@ -88,19 +99,20 @@ section.imagen{
     background-color: rgba(0, 0, 0, 0.178);
     color: white;
     box-shadow: inset 1px 1px 6px black;
-    background-attachment: fixed;
+   
 }
 
 section#flor2{
     background-image: url(imagens/background001.jpg);
-    background-position: right center ;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 }
 section#flor{
     background-image: url(imagens/background002.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position:  center;
+    background-attachment: fixed;
 }
 footer{
     background-image: linear-gradient(to bottom, rgb(55, 0, 255), rgb(0, 2, 139));
