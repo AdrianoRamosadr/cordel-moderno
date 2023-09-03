@@ -79,6 +79,8 @@ section{
     padding-left: 30px;
     font-size: 3.5vw;
     font-weight: bold;
+    min-width: 450px;
+    max-width: 800px;
 }
 
 section p{
