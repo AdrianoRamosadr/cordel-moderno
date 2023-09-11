@@ -1,0 +1,48 @@
+@charset "UTF-";
+
+
+@media screen and (orientation:portrait)  {
+    header {
+        background-image: linear-gradient(to right,rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.671));
+    }
+   
+}
+
+section#flor{
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+footer{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.671));
+    font-family: var(--font2);
+}
+
+footer a{
+    color: darkcyan;
+}
+
+@media screen and (orientation:landscape) {
+    
+    section#flor{
+        background-image: url(imagens/flor-azul-especies-2.jpg);
+    }
+
+    section#flor2{
+        background-image: url(imagens/flores_azuis.jpg);
+    }
+
+    footer{
+        background-image: linear-gradient(to bottom, rgb(44, 12, 161), rgb(21, 24, 206));
+    color: white;
+    
+    }
+
+    footer a{
+        color: rgb(142, 195, 238);
+    }
+    
+}
